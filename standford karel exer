@@ -1,0 +1,80 @@
+function main(){
+   //your code here
+   
+     putBeeper();
+   move();
+   
+   move();
+    putBeeper();
+   move();
+   
+   move();
+    putBeeper();
+   move();
+   
+   move();
+    putBeeper();
+   move();
+   
+   repeat (3)
+   {
+       turnLeft();
+    move();
+    putBeeper();
+    turnLeft();
+    move();
+     
+     move();
+    putBeeper();
+   move();
+   
+    move();
+    putBeeper();
+   move();
+   
+    move();
+    putBeeper();
+   move();
+   
+   //startRight
+   
+   turnRight();
+    move();
+    putBeeper();
+    turnRight();
+    move();
+     
+     move();
+    putBeeper();
+   move();
+   
+    move();
+    putBeeper();
+   move();
+   
+    move();
+    putBeeper();
+   move();
+   }
+   
+   //final
+   
+     turnLeft();
+    move();
+    putBeeper();
+    turnLeft();
+    move();
+     
+     move();
+    putBeeper();
+   move();
+   
+    move();
+    putBeeper();
+   move();
+   
+    move();
+    putBeeper();
+   move();
+   
+}
